@@ -30,4 +30,6 @@
     <string name="reset_failed">重置失败</string>
     <string name="text_now_login">Loading...</string>
     <string name="text_editor_success">修改成功</string>
+    <string name="text_courier_number">快递单号</string>
+    <string name="text_courier_company">快递公司</string>
 </resources>
