@@ -29,4 +29,6 @@ public class StaticClass {
                     "?showapi_appid=50804" +
                     "&showapi_sign=30529d59db59457787199965489d1bb7" +
                     "&info=";
+
+    public static final String VOICE_KEY = "5a1a546f";
 }

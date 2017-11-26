@@ -36,4 +36,16 @@
     <string name="text_query">查询</string>
     <string name="text_hello_tts">Hello</string>
     <string name="text_more_length">已达到最大长度</string>
+    <string name="text_setting_title_1">语音播报</string>
+    <string name="text_setting_content_1">语音播报</string>
+    <string name="text_setting_title_3">检查版本</string>
+    <string name="text_setting_content_3">已经是最新版本</string>
+    <string name="text_setting_title_4">扫一扫</string>
+    <string name="text_setting_content_4">扫秒二维码</string>
+    <string name="text_setting_title_5">我的二维码</string>
+    <string name="text_setting_content_5">分享二维码</string>
+    <string name="text_setting_title_6">我的位置</string>
+    <string name="text_setting_content_6">我的位置</string>
+    <string name="text_setting_title_7">关于软件</string>
+    <string name="text_setting_content_7">关于软件</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.example.ll300.hotchpotch.ui;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -61,6 +62,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         dialog = new CustomDialog(this,100,100,R.layout.dialog_loading,R.style.Theme_Dialog,
                 Gravity.CENTER,R.style.pop_anim_style);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         //设置点击dialog外部无效
         dialog.setCanceledOnTouchOutside(false);
 

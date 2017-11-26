@@ -1,5 +1,6 @@
 package com.example.ll300.hotchpotch.fragment;
 
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.Gravity;
@@ -72,6 +73,7 @@ public class GirlFragment extends Fragment {
         dialog = new CustomDialog(getActivity(), LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.MATCH_PARENT, R.layout.dialog_girl,
                 R.style.Mydialog, Gravity.CENTER,R.style.pop_anim_style);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         iv_img = (ImageView) dialog.findViewById(R.id.iv_img);
 
 //        String welfare = null;
