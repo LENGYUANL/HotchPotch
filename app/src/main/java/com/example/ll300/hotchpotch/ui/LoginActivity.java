@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         et_password = (EditText) findViewById(R.id.et_password);
         btn_login = (Button) findViewById(R.id.btnLogin);
 
-        dialog = new CustomDialog(this,100,100,R.layout.dialog_loading,R.style.Theme_dialog,
+        dialog = new CustomDialog(this,100,100,R.layout.dialog_loading,R.style.Theme_Dialog,
                 Gravity.CENTER,R.style.pop_anim_style);
         //设置点击dialog外部无效
         dialog.setCanceledOnTouchOutside(false);

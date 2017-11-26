@@ -22,6 +22,7 @@ import com.example.ll300.hotchpotch.R;
 import com.example.ll300.hotchpotch.entity.MyUser;
 import com.example.ll300.hotchpotch.ui.CourierActivity;
 import com.example.ll300.hotchpotch.ui.LoginActivity;
+import com.example.ll300.hotchpotch.ui.PhoneActivity;
 import com.example.ll300.hotchpotch.utils.L;
 import com.example.ll300.hotchpotch.utils.UtilTools;
 import com.example.ll300.hotchpotch.view.CustomDialog;
@@ -88,7 +89,7 @@ public class UserFragment extends Fragment implements View.OnClickListener {
         UtilTools.getImageFromShare(getActivity(), profile_image);
         profile_image.setOnClickListener(this);
         //初始化dialog
-        dialog = new CustomDialog(getActivity(),100,100,R.layout.dialog_photo,R.style.Theme_dialog,
+        dialog = new CustomDialog(getActivity(),100,100,R.layout.dialog_photo,R.style.Mydialog,
                 Gravity.BOTTOM,R.style.pop_anim_style);
 
         btn_camera = (Button) dialog.findViewById(R.id.btn_camera);
@@ -118,6 +119,9 @@ public class UserFragment extends Fragment implements View.OnClickListener {
 
         tv_courier = (TextView) view.findViewById(R.id.tv_courier);
         tv_courier.setOnClickListener(this);
+
+        tv_phone = (TextView) view.findViewById(R.id.tv_phone);
+        tv_phone.setOnClickListener(this);
     }
 
     @Override
@@ -193,6 +197,9 @@ public class UserFragment extends Fragment implements View.OnClickListener {
             case R.id.tv_courier:
                 startActivity(new Intent(getActivity(), CourierActivity.class));
                 break;
+            //归属地查询
+            case R.id.tv_phone:
+                startActivity(new Intent(getActivity(), PhoneActivity.class ));
         }
     }
 

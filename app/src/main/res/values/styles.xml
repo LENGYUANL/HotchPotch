@@ -22,8 +22,13 @@
         <item name="android:windowExitAnimation">@anim/pop_out</item>>
     </style>
     
-    <style name="Theme_dialog">
+    <style name="Mydialog" parent="android:style/Theme.Dialog">
         <item name="android:windowNoTitle">true</item>
         <item name="android:background">@android:color/transparent</item>
-    </style>>
+    </style>
+
+    <style name="Theme_Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
 </resources>

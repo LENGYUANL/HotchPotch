@@ -32,4 +32,8 @@
     <string name="text_editor_success">修改成功</string>
     <string name="text_courier_number">快递单号</string>
     <string name="text_courier_company">快递公司</string>
+    <string name="text_input_phone">输入号码</string>
+    <string name="text_query">查询</string>
+    <string name="text_hello_tts">Hello</string>
+    <string name="text_more_length">已达到最大长度</string>
 </resources>
